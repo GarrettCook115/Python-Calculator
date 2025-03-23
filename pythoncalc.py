@@ -39,4 +39,5 @@ for txt, r, c in buttons:
 tk.Button(frame, text="Clear", padx=15, pady=5, width=12, command=clear).grid(row=6, column=1, columnspan=2, pady=2)
 tk.Button(frame, text="=", padx=15, pady=5, width=9, command=equal).grid(row=7, column=0, columnspan=3, pady=2)
 
-win.mainloop()
+win.mainloop() 
+#Testing
